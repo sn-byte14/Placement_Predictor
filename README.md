@@ -9,7 +9,7 @@ The frontend is built using Streamlit, making it simple, fast, and interactive. 
 Whether you're a student preparing for placements, or a teacher looking to demonstrate machine learning in action — this app provides a realistic and educational insight into how AI can support career forecasting.
 
 
-🌐 Live Demo
+## 🌐 Live Demo
  access here: https://placementpredictor-nnckdi3a3kfmdhbrpzhuqy.streamlit.app/
 
 
@@ -36,7 +36,7 @@ Whether you're a student preparing for placements, or a teacher looking to demon
 
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 placement-predictor/
 ├── app.py                  # Streamlit app
