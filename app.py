@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the model
-model = joblib.load("D:\placement_predictor\placement_model.pkl")
+model = joblib.load("placement_model.pkl")
 
 # Streamlit UI
 st.set_page_config(page_title="Placement Predictor", page_icon="🎓")
