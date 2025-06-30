@@ -48,8 +48,15 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+📁 Project Structure
 
+placement-predictor/
+│
+├── app.py              # Streamlit web app
+├── placement_model.pkl # Trained ML model
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 
 🌐 Try the Live App
 
-👉 Click here to view the deployed app
+👉 Click here to view the deployed app - https://placementpredictor-nnckdi3a3kfmdhbrpzhuqy.streamlit.app/
