@@ -28,25 +28,12 @@ The app is deployed online using Streamlit Cloud.
 
 ## 🚀 How to Use
 
-### 💻 Run Locally
+🌐 Try the Live App
 
-1. Clone the repo:
-   `bash
-   git clone https://github.com/your-username/placement-predictor.git
-
-2. Navigate to the folder:
-
-cd placement-predictor
+👉 Click here to view the deployed app - https://placementpredictor-nnckdi3a3kfmdhbrpzhuqy.streamlit.app/
 
 
-3. Install dependencies:
 
-pip install -r requirements.txt
-
-
-4. Run the app:
-
-streamlit run app.py
 
 📁 Project Structure
 
@@ -57,6 +44,3 @@ placement-predictor/
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
 
-🌐 Try the Live App
-
-👉 Click here to view the deployed app - https://placementpredictor-nnckdi3a3kfmdhbrpzhuqy.streamlit.app/
