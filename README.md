@@ -1,46 +1,50 @@
-✅ README.md – Placement Prediction App
+# 🎯 Placement Predictor 
 
-# 🎓 Placement Prediction App
+An intelligent, interactive web application that predicts whether a student is likely to be placed in a job based on academic performance, technical ability, and soft skills. This project was designed to mimic real-world placement screening by including more than just CGPA — it takes a holistic view of a student’s profile.
 
-A simple machine learning web app built using Streamlit to predict whether a student is likely to be placed based on their academic performance.
+The model is trained on a synthetic dataset simulating real college placement conditions, with inputs like CGPA, IQ, communication skills, technical knowledge, number of projects, resume quality, and internship experience.
 
-## 📌 About the Project
+The frontend is built using Streamlit, making it simple, fast, and interactive. The backend uses a Random Forest Classifier, chosen for its accuracy and ability to handle multiple features with ease. The trained model is exported using Joblib and loaded in real-time for predictions.
 
-This project uses a trained Random Forest Classifier to predict placement outcomes based on the following inputs:
+Whether you're a student preparing for placements, or a teacher looking to demonstrate machine learning in action — this app provides a realistic and educational insight into how AI can support career forecasting.
 
-- CGPA (Cumulative Grade Point Average)
-- IQ Score
-- Student ID (used as a training feature)
 
-The app is deployed online using Streamlit Cloud.
+🌐 Live Demo
+ access here: https://placementpredictor-nnckdi3a3kfmdhbrpzhuqy.streamlit.app/
+
+
+## 🧠 What's New in This Version
+
+✅ Real-world inspired dataset with multiple key features:
+- 📚 CGPA (out of 10)
+- 🧠 IQ Score
+- 🗣️ Communication Skills (1–10)
+- 💻 Technical Skills (1–10)
+- 📁 Number of Projects
+- 📝 Resume Score (1–10)
+- 📄 Internship Experience (Yes/No)
 
 ---
 
-## 🧠 Technologies Used
+## 💻 Tech Stack
 
 - Python
-- Streamlit
-- scikit-learn
-- NumPy
-- Joblib
-
----
-
-## 🚀 How to Use
-
-🌐 Try the Live App
-
-👉 Click here to view the deployed app - https://placementpredictor-nnckdi3a3kfmdhbrpzhuqy.streamlit.app/
-
+- Pandas + NumPy
+- Scikit-learn (Random Forest)
+- Streamlit (Web UI)
+- Joblib (Model serialization)
 
 
 
 📁 Project Structure
 
 placement-predictor/
-│
-├── app.py              # Streamlit web app
-├── placement_model.pkl # Trained ML model
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+├── app.py                  # Streamlit app
+├── placement_model.pkl     # Trained model file
+├── placement_dataset.csv   # (optional) Dataset used for training
+├── requirements.txt        # Python dependencies
+└── README.md               # Documentation
+
+
+
 
