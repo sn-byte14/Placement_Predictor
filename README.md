@@ -39,11 +39,11 @@ Whether you're a student preparing for placements, or a teacher looking to demon
 ## 📁 Project Structure
 
 placement-predictor/
-├── app.py                  # Streamlit app
-├── placement_model.pkl     # Trained model file
-├── placement_dataset.csv   # (optional) Dataset used for training
-├── requirements.txt        # Python dependencies
-└── README.md               # Documentation
+├── app.py                  
+├── placement_model.pkl     
+├── placement_dataset.csv   
+├── requirements.txt       
+└── README.md               
 
 
 
